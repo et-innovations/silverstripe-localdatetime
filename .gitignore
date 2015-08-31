@@ -1,0 +1,33 @@
+# Ignore Silverstripe assets and cache
+assets/*
+_ss_environment.php
+tools/phing-metadata
+silverstripe-cache
+.buildpath
+
+# Ignore NPM and Bower folders.
+bower_components
+node_modules
+npm-debug.log
+
+# Ignore prod/dist folders
+dist
+
+# Other generated/common stuff.
+.tmp
+.DS_Store
+*.pyc
+sitemap.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Netbeans
+nbproject
