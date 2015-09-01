@@ -1,0 +1,17 @@
+{
+  "name": "et-innovations/silverstripe-localdatetime",
+  "description": "LocalDateTime translates date and time strings to the current locale set by i18n::set_locale(). The strings themselves are formatted then via Zend-Date.",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "date", "datefield", "datetimefield", "localdate", "time", "timefield", "i18n", "translation", "translatable"],
+  "authors": [{
+      "name": "Hernold Koch",
+      "email": "hernold.koch@et-innovations.org"
+    }],
+  "require": {
+    "silverstripe/framework": "~3.0"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+    "installer-name": "localdatetime"
+  }
+}
