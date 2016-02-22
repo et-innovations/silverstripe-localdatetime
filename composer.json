@@ -1,0 +1,25 @@
+{
+	"name": "silverstripe/localdatetime",
+	"type": "silverstripe-module",
+	"description": "Cookie policy module",
+	"homepage": "http://silverstripe.org",
+	"license": "MIT",
+	"keywords": ["silverstripe", "date", "time", "datetime", "local", "locale", "i18n"],
+	"authors": [
+		{
+			"name": "Hernold Koch",
+			"email": "hernold.koch@et-innovations.org",
+			"homepage": "http://et-innovations.org",
+			"role": "UX Engineer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.3,<7",
+		"composer/installers": "~1.0",
+		"silverstripe/cms": ">3.0.0",
+		"silverstripe/notifications": "dev-master"
+	},
+	"require-dev": {
+		"phpunit/PHPUnit": "~3.7"
+	}
+}

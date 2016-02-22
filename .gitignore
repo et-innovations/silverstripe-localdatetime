@@ -1,0 +1,34 @@
+# Ignore NPM and Bower folders.
+bower_components
+node_modules
+npm-debug.log
+
+# Ignore prod/dist folders
+dist
+
+# Ignore generated CSS.
+.sass-cache
+css/**/*.css
+
+# Other generated/common stuff.
+.tmp
+.DS_Store
+*.pyc
+screenshots
+sitemap.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Netbeans
+nbproject
+
+# Mac
+.DS_Store
