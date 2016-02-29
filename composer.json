@@ -1,7 +1,7 @@
 {
   "name": "et-innovations/silverstripe-localdatetime",
   "type": "silverstripe-module",
-  "description": "Cookie policy module",
+  "description": "Localized Date, Time & Date-Time fields for SilverStripe",
   "homepage": "http://et-innovations.org",
   "license": "MIT",
   "keywords": ["silverstripe", "date", "time", "datetime", "local", "locale", "i18n"],
